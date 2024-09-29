@@ -1,0 +1,116 @@
+/* styles/global.css */
+
+/* Reset margin và padding cho body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Màu nền nhẹ */
+  }
+  
+  /* Định dạng tiêu đề */
+  h1, h2, h3 {
+    color: #333; /* Màu chữ tối */
+  }
+  
+  /* Thiết lập cho sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #007bff; /* Màu nền sidebar */
+    color: white;
+    height: 100vh; /* Chiều cao sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Định dạng các liên kết trong sidebar */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white; /* Màu chữ liên kết */
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+  }
+  
+  /* Định dạng cho các trang chính */
+  .main-content {
+    margin-left: 270px; /* Khoảng cách cho sidebar */
+    padding: 20px; /* Padding cho nội dung chính */
+  }
+  
+  /* Định dạng các nút */
+  .button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Màu nền nút */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #218838; /* Màu nền khi hover */
+  }
+  
+  /* Định dạng các bảng */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Gộp các border của bảng */
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd; /* Border cho các ô */
+    padding: 8px; /* Padding cho các ô */
+    text-align: left; /* Căn trái nội dung */
+  }
+  
+  table th {
+    background-color: #007bff; /* Màu nền cho tiêu đề bảng */
+    color: white; /* Màu chữ cho tiêu đề bảng */
+  }
+  
+  /* Định dạng form */
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0; /* Khoảng cách cho các trường */
+    border: 1px solid #ccc; /* Border cho các trường */
+    border-radius: 4px; /* Bo góc */
+  }
+  
+  /* Định dạng cho các thông báo */
+  .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .alert-success {
+    color: #155724; /* Màu chữ cho thông báo thành công */
+    background-color: #d4edda; /* Màu nền cho thông báo thành công */
+    border-color: #c3e6cb; /* Border cho thông báo thành công */
+  }
+  
+  .alert-danger {
+    color: #721c24; /* Màu chữ cho thông báo lỗi */
+    background-color: #f8d7da; /* Màu nền cho thông báo lỗi */
+    border-color: #f5c6cb; /* Border cho thông báo lỗi */
+  }
+  
+  /* Thêm các quy tắc CSS khác mà bạn cần */
+  
